@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Epilogue', sans-serif;
+
+}
+:root{
+  font-size:  6.25%;
+}
+
+body{
+  padding: 60rem 23rem;
+  background-color: #ECE9FD;
+  font-weight: 400;
+
+  max-width: 330rem;
+  margin: 0 auto;
+
+}
+.main{
+  margin-bottom: 77rem;
+}
+
+.main > p:first-child{
+
+color: #7158EF;
+font-size: 16rem;
+line-height: 32rem; 
+letter-spacing: 3px;
+text-transform: uppercase;
+
+margin-bottom: 17rem;
+}
+
+.main h1 {
+  color: #090039;
+
+  font-size: 40rem;
+  font-weight: 800;
+  line-height: 48rem; /* 120% */
+
+  margin-bottom: 15rem;
+}
+.main h1 + p{
+  color:  rgba(10, 0, 57, 0.64);
+  font-size: 16rem;
+  line-height: 32rem; /* 200% */
+
+  margin-bottom: 32rem;
+}
+
+.main a{
+  color:#090039;
+  font-size: 16rem;
+  line-height: 32rem; /* 200% */
+
+  text-decoration: none;
+}
+
+.main a:hover{
+  color: #090039;
+  font-weight: 700;
+}
+
+.the-list ul{
+  list-style: none;
+  
+
+  display: flex;
+  flex-direction: column;
+  gap: 32rem;
+}
+
+.the-list li {
+  color: #090039;
+  font-size: 24rem;
+  font-weight: 700;
+  line-height: 32rem; /* 133.333% */
+
+  max-width: 329rem;
+
+  display: flex;
+  gap: 38rem;
+}
+
+
+.the-list li:hover{
+  color: #a49338;
+}
+.the-list span{
+  color: #090039;
+  font-size: 72rem;
+  font-weight: 800;
+  line-height: 80rem; /* 111.111% */
+
+  letter-spacing: -2px;
+  min-width: 44rem;
+
+}
+
+
+@media (min-width:40em){
+  body{ 
+  margin: 0 auto;
+  padding: 80rem 40rem 80rem 40rem;
+  display: flex;
+  gap: 40rem;
+
+  align-items:end;
+  max-width: 1025px;
+  }
+
+  .main{
+    margin: 0 0 72rem 0;
+    max-width: 484px;
+  }
+
+  .the-list{
+    max-width: 421px;
+  }
+  
+  .the-list ul{
+    display: flex;
+    flex-direction: column;
+    min-width: 217px;
+    gap: 40rem;
+
+    max-width: 421px;
+  }
+  .the-list ul li{
+    gap: 53rem;   /* OK */
+    min-width: 217px;
+    max-width: 421px;
+
+    align-items: center;
+    
+
+    
+  }
+
+  /* .the-list span {
+    margin-right: 53px;
+  } */
+
+
+}
