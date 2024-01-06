@@ -89,7 +89,7 @@ nav #camera-icon:hover{
 }
 
 
-nav input{
+nav .input-wrapper input{
 
   height: 100%;
   width: 100%;
@@ -108,10 +108,18 @@ nav input{
   font-weight: 600;
   
 }
-
 nav input::placeholder{
 color: var(--color-input-placeholder);
 }
+
+nav .input-wrapper label {  /*problem is here*/
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+
+
 
 .avatar-container img{
   height: 42px;
