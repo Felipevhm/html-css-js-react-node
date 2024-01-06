@@ -62,7 +62,7 @@ header a:hover {
 }
 
 
-menu{
+nav{
   display: flex;
   flex-direction: row;
   gap: 76rem;
@@ -76,12 +76,12 @@ menu{
   animation: move forwards 1s ease-in-out;
 }
 
-menu #camera-icon{
+nav #camera-icon{
   height: 40px;
   width: 40px;
 }
 
-menu #camera-icon:hover{
+nav #camera-icon:hover{
   
   cursor: pointer;
   animation: change-scale-and-rotate forwards .2s ease-out; 
@@ -89,7 +89,7 @@ menu #camera-icon:hover{
 }
 
 
-menu input{
+nav input{
 
   height: 100%;
   width: 100%;
@@ -109,7 +109,7 @@ menu input{
   
 }
 
-menu input::placeholder{
+nav input::placeholder{
 color: var(--color-input-placeholder);
 }
 
@@ -200,7 +200,7 @@ main .container{
   gap: 22px;
 }
 
-footer{
+footer p{
   display: flex;
   justify-content: center;
 
