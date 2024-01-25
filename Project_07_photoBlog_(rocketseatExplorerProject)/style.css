@@ -88,11 +88,14 @@ nav #camera-icon:hover{
 
 }
 
-
+nav .input-wrapper{
+display: flex;
+position: relative;
+}
 nav .input-wrapper input{
 
   height: 100%;
-  width: 100%;
+  width: 500rem;
 
   padding: 16px;
 
@@ -113,10 +116,11 @@ color: var(--color-input-placeholder);
 }
 
 nav .input-wrapper label {  /*problem is here*/
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
+   width: 1px;
+  height: 1px; 
+   overflow: hidden; 
+   position: absolute; 
+  opacity: 0;
 }
 
 
