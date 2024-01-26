@@ -2,6 +2,9 @@
 
 #Project Overview: Image Gallery
 
+### Desktop Screen:
+![Project06_desktop_screen](https://github.com/Felipevhm/html-css-js-react-node/blob/main/Project_07_photoBlog_(rocketseatExplorerProject)/preview/preview_photoblog.png)
+
 ## Covered Concepts:
 Hello there! 👋 I'm excited to share my latest project, an engaging Image Gallery crafted with HTML and CSS. Here's a glimpse into the key features:
 
@@ -28,8 +31,6 @@ The use of CSS Grid contributes to the responsive and organized layout of the ga
 
 Feel free to explore the code and experience the creative blend of these techniques in action. Your feedback is always appreciated! 🚀
 
-### Desktop Screen:
-![Project06_desktop_screen](https://github.com/Felipevhm/html-css-js-react-node/blob/main/Project_07_photoBlog_(rocketseatExplorerProject)/preview/preview_photoblog.png)
 
 ### Preview of the design and its animations:
 ![project07demonstration](https://github.com/Felipevhm/html-css-js-react-node/blob/main/Project_07_photoBlog_(rocketseatExplorerProject)/preview/preview_photoblog.gif)
